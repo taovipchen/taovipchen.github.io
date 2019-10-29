@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taovipchen.github.io/</id>
     <title>陶琛的博客</title>
-    <updated>2019-10-28T17:38:48.746Z</updated>
+    <updated>2019-10-29T04:26:36.127Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taovipchen.github.io/"/>
     <link rel="self" href="https://taovipchen.github.io//atom.xml"/>
@@ -12,13 +12,13 @@
     <rights>All rights reserved 2019, 陶琛的博客</rights>
     <entry>
         <title type="html"><![CDATA[APP测试流程及测试点总结]]></title>
-        <id>https://taovipchen.github.io//post/app-ce-shi-liu-cheng-ji-ce-shi-dian-zong-jie</id>
-        <link href="https://taovipchen.github.io//post/app-ce-shi-liu-cheng-ji-ce-shi-dian-zong-jie">
+        <id>https://taovipchen.github.io//post/app-tc</id>
+        <link href="https://taovipchen.github.io//post/app-tc">
         </link>
         <updated>2019-10-28T16:58:03.000Z</updated>
-        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://taovipchen.github.io//post-images/1572282898786.jpg" alt=""></figure>
+        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://s2.ax1x.com/2019/10/29/K2IavD.jpg" alt=""></figure>
 ]]></summary>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://taovipchen.github.io//post-images/1572282898786.jpg" alt=""></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://s2.ax1x.com/2019/10/29/K2IavD.jpg" alt=""></figure>
 ]]></content>
     </entry>
     <entry>
