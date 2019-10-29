@@ -1,105 +1,74 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>APP测试流程及测试点总结 | 陶琛的博客</title>
-<meta name="description" content="温故而知新">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://taovipchen.github.io//favicon.ico?v=1572355103961">
+<meta name="description" content="温故而知新" />
+<link rel="shortcut icon" href="https://taovipchen.github.io//favicon.ico?v=1572355305343">
+<link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
 <link rel="stylesheet" href="https://taovipchen.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="APP测试流程及测试点总结 | 陶琛的博客 - Atom Feed" href="https://taovipchen.github.io//atom.xml">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://taovipchen.github.io/">
-        <img src="https://taovipchen.github.io//images/avatar.png?v=1572355103961" class="site-logo">
-        <h1 class="site-title">陶琛的博客</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
+    <div class="site-nav has-cover">
+      <div class="head">
+  <div class="inner">
+    <a class="site-name" href="https://taovipchen.github.io/">
+        <span>陶琛的博客</span>
+    </a>
+    <label class="burger" for="burger"></label>
+    <input id="burger" type="checkbox">
+    <button class="burger">
+      <div>
+        <span></span>
+        <span></span>
       </div>
-    </div>
-    <div>
+    </button>
+    <nav class="info_nav">
       
         
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
+          <a href="/">首页</a>
         
       
         
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
+          <a href="/archives">归档</a>
         
       
         
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
+          <a href="/tags">标签</a>
         
       
         
-      
+          <a href="/post/about">关于</a>
         
       
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      温故而知新
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://taovipchen.github.io//atom.xml" target="_blank">RSS</a>
-    </div>
+    </nav>
   </div>
 </div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">APP测试流程及测试点总结</h2>
-            <div class="post-date">2019-10-29</div>
-            
-              <div class="feature-container" style="background-image: url('https://s2.ax1x.com/2019/10/29/K2qhrT.md.jpg')">
-              </div>
-            
-            <div class="post-content">
-              <p>👏  欢迎来到我的 <strong>第一篇文章</strong> ！</p>
+    </div>
+    <article role="main" class="hentry has-cover">
+      
+        <div class="entry-cover js-cover" data-src="https://s2.ax1x.com/2019/10/29/K2qhrT.md.jpg" data-width="900" data-height="423" style="background-image:url(https://s2.ax1x.com/2019/10/29/K2qhrT.md.jpg); height: 80vw;">
+          <h1 class="post-title">APP测试流程及测试点总结</h1>
+        </div>
+      
+      <h1 class="entry-title" itemprop="headline">APP测试流程及测试点总结</h1>
+      <div class="entry-meta">
+        <time class="updated" datetime="2019-10-29 00:58:03">2019-10-29</time>
+        <span class="author vcard">
+          24 min read
+        </span>
+      </div>
+      <div class="post-content yue">
+        <p>👏  欢迎来到我的 <strong>第一篇文章</strong> ！</p>
 <!-- more -->
 <h1 id="1-app测试基本流程">1 APP测试基本流程</h1>
 <h2 id="11-测试周期">1.1 测试周期</h2>
@@ -948,54 +917,70 @@
 </ul>
 <!-- more -->
 
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://taovipchen.github.io//tag/YTME3DKwX" class="tag">
-                    APP
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://taovipchen.github.io//post/hello-gridea">
-                  <h3 class="post-title">
-                    Hello Gridea
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-
-          </div>
-
+      </div>
+      <div class="entry-block">
+        <div class="entry-tags">
+          
+            <a href="https://taovipchen.github.io//tag/YTME3DKwX">
+              APP
+            </a>
+          
         </div>
       </div>
+    </article>
+    
+    
+      <section class="post-section prev-post">
+        <div class="inner">
+          <h3>后一篇</h3>
+          <a href="https://taovipchen.github.io//post/hello-gridea">
+            <strong>Hello Gridea</strong>
+          </a>
+        </div>
+      </section>
+    
+
+    
+
+    <footer class="footer">
+  <div class="main">
+    <a href="https://taovipchen.github.io/">
+      <img class="avatar" src="https://taovipchen.github.io//images/avatar.png?v=1572355305343" alt="陶琛的博客">
+    </a>
+    <div class="footer__social">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     </div>
+    <p class="footer__sosumi">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </p>
+    <a class="footer-rss" href="https://taovipchen.github.io//atom.xml">RSS</a>
+  </div>
+</footer>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script src="https://taovipchen.github.io//media/prism.js"></script>
+<script>
+  Prism.highlightAll()
 </script>
-
-
-
 
   </body>
 </html>
