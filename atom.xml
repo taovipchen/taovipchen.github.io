@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taovipchen.github.io/</id>
     <title>陶琛的博客</title>
-    <updated>2019-10-29T14:28:01.845Z</updated>
+    <updated>2019-10-30T15:55:38.438Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taovipchen.github.io/"/>
     <link rel="self" href="https://taovipchen.github.io//atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://taovipchen.github.io//images/avatar.png</logo>
     <icon>https://taovipchen.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 陶琛的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[Linux 常用高频的命令]]></title>
+        <id>https://taovipchen.github.io//post/Linux command</id>
+        <link href="https://taovipchen.github.io//post/Linux command">
+        </link>
+        <updated>2019-10-30T15:52:01.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[APP测试流程及测试点总结]]></title>
         <id>https://taovipchen.github.io//post/app-tc</id>
