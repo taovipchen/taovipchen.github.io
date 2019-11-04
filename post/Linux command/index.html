@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Linux 常用高频的命令 | 陶琛的博客</title>
 <meta name="description" content="温故而知新" />
-<link rel="shortcut icon" href="https://taovipchen.github.io//favicon.ico?v=1572531384371">
+<link rel="shortcut icon" href="https://taovipchen.github.io//favicon.ico?v=1572878338725">
 <link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
@@ -144,7 +144,7 @@
 <h2 id="文件管理-scp">文件管理 scp</h2>
 <p>Linux scp命令用于Linux之间复制文件和目录。</p>
 <h5 id="从-本地-复制到-远程">从 本地 复制到 远程</h5>
-<p>将本地/home/iTestOps/目录的tomcat.log 文件复制到远程172.119.23.75服务器的/home/TestOps 目录。</p>
+<p>将本地/home/iTaochen/目录的tomcat.log 文件复制到远程172.119.23.75服务器的/home/TestOps 目录。</p>
 <pre><code>scp .home/iTaochen/tomcat.log
 root@172.119.23.75: /home/Taochen
 </code></pre>
@@ -177,13 +177,13 @@ root@172.119.23.75: /home/Taochen
 <pre><code>find /home/iTaochen/ -type f | xargs grep &quot;Taochen&quot;
 </code></pre>
 <h5 id="根据更改时间删除文件">根据更改时间删除文件</h5>
-<p>在/home/iTestOps/目录下，删除两天之内没有修改过的文件</p>
+<p>在/home/iTaochen/目录下，删除两天之内没有修改过的文件</p>
 <pre><code>find /home/iTaochen/ -mtime +2 -print | xargs rm -rf
 </code></pre>
 <h2 id="文件管理-rm">文件管理 rm</h2>
 <p>Linux rm命令用于删除一个文件或者目录。</p>
 <h5 id="删除文件">删除文件</h5>
-<p>删除/home/iTestOps/目录下的文件tomcat.log</p>
+<p>删除/home/iTaochen/目录下的文件tomcat.log</p>
 <pre><code>rm /home/iTaochen/tomcat.log
 </code></pre>
 <h5 id="强行删除文件">强行删除文件</h5>
@@ -219,7 +219,7 @@ root@172.119.23.75: /home/Taochen
 <pre><code>tar -cvf  all.tar *.log
 </code></pre>
 <h5 id="打包目录">打包目录</h5>
-<p>打包/home/TestOps/目录到当前目录TestOps_bak.tar中。</p>
+<p>打包/home/Taochen/目录到当前目录Taochen_bak.tar中。</p>
 <pre><code>tar -cvf Taochen_bak.tar /home/Taochen/
 </code></pre>
 <h5 id="解压tar文件">解压.tar文件</h5>
@@ -291,7 +291,7 @@ root@172.119.23.75: /home/Taochen
     <footer class="footer">
   <div class="main">
     <a href="https://taovipchen.github.io/">
-      <img class="avatar" src="https://taovipchen.github.io//images/avatar.png?v=1572531384371" alt="陶琛的博客">
+      <img class="avatar" src="https://taovipchen.github.io//images/avatar.png?v=1572878338725" alt="陶琛的博客">
     </a>
     <div class="footer__social">
       
