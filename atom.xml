@@ -2,25 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taovipchen.github.io/</id>
     <title>陶琛的博客</title>
-    <updated>2020-02-17T14:16:10.127Z</updated>
+    <updated>2020-02-17T15:43:57.041Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taovipchen.github.io/"/>
-    <link rel="self" href="https://taovipchen.github.io//atom.xml"/>
+    <link rel="self" href="https://taovipchen.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://taovipchen.github.io//images/avatar.png</logo>
-    <icon>https://taovipchen.github.io//favicon.ico</icon>
+    <logo>https://taovipchen.github.io/images/avatar.png</logo>
+    <icon>https://taovipchen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 陶琛的博客</rights>
     <entry>
+        <title type="html"><![CDATA[个人简历]]></title>
+        <id>https://taovipchen.github.io/post/resume/</id>
+        <link href="https://taovipchen.github.io/post/resume/">
+        </link>
+        <updated>2020-02-17T15:34:17.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Linux 常用高频的命令]]></title>
-        <id>https://taovipchen.github.io//post/Linux command</id>
-        <link href="https://taovipchen.github.io//post/Linux command">
+        <id>https://taovipchen.github.io/post/Linux command/</id>
+        <link href="https://taovipchen.github.io/post/Linux command/">
         </link>
         <updated>2019-10-30T15:52:01.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[APP测试流程及测试点总结]]></title>
-        <id>https://taovipchen.github.io//post/app-tc</id>
-        <link href="https://taovipchen.github.io//post/app-tc">
+        <id>https://taovipchen.github.io/post/app-tc/</id>
+        <link href="https://taovipchen.github.io/post/app-tc/">
         </link>
         <updated>2019-10-28T16:58:03.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎来到我的 <strong>第一篇文章</strong> ！</p>
@@ -30,8 +37,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
-        <id>https://taovipchen.github.io//post/about</id>
-        <link href="https://taovipchen.github.io//post/about">
+        <id>https://taovipchen.github.io/post/about/</id>
+        <link href="https://taovipchen.github.io/post/about/">
         </link>
         <updated>2019-10-25T11:09:48.000Z</updated>
     </entry>
